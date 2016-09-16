@@ -27,16 +27,16 @@ public class MainActivityListFragment extends ListFragment {
 
 
         notes = new ArrayList<Note>();
-        notes.add(new Note("This is a new note title", "This is the body of our note. It kicks ass while sodomizing your mom on a jetskii", Note.Category.PERSONAL));
-        notes.add(new Note("Hi", "What you fuck?!", Note.Category.FINANCE));
-        notes.add(new Note("Ho", "That's what you are", Note.Category.QUOTE));
-        notes.add(new Note("Buttmunch", "You love it, don't you", Note.Category.TECHNICAL));
-        notes.add(new Note("I'm UnPC", "Hitler did nothing wrong", Note.Category.FINANCE));
-        notes.add(new Note("Trump", "He is mein new Furher", Note.Category.PERSONAL));
+        notes.add(new Note("This is a new note title", "This is the body of our note. It is the coolest cool that ever cooled. It listens to jazz music.", Note.Category.PERSONAL));
+        notes.add(new Note("Hi", "What you want, bro?!", Note.Category.FINANCE));
+        notes.add(new Note("Shining Star", "That's what you are", Note.Category.QUOTE));
+        notes.add(new Note("Hudson Hawk", "You love it, don't you", Note.Category.TECHNICAL));
+        notes.add(new Note("I'm UnPC", "This can only be found on the Internet, m'lady.", Note.Category.FINANCE));
+        notes.add(new Note("Star Wars", "The end of an era.", Note.Category.PERSONAL));
         notes.add(new Note("Clinton", "She's a lizard alien, I read it on the Internet!", Note.Category.FINANCE));
-        notes.add(new Note("Fuck", "It's my favorite word", Note.Category.FINANCE));
+        notes.add(new Note("Defenestration", "It's my favorite word", Note.Category.FINANCE));
         notes.add(new Note("Shapoopi", "This is the girl that's hard to get. Go ahead, give it a try. You can't, can you? See? You didn't listen to me.", Note.Category.QUOTE));
-        notes.add(new Note("Marion", "She's this library that I totally heard puts out!", Note.Category.QUOTE));
+        notes.add(new Note("Marion", "She's this library!", Note.Category.QUOTE));
 
         noteAdapter = new NoteAdapter(getActivity(), notes);
 
